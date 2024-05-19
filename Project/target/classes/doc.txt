@@ -1,0 +1,18 @@
+register url: http://localhost:9910/user/register  (POST request)
+body: {
+    "emailId":"sonu112mondal98@gmail.com",
+    "mobileNumber":"9023052918",
+    "userName":"rohitprajapati"
+}
+
+
+Login url: http://localhost:9910/user/login   (PUT request)
+body: {
+    "emailId":"sonu112mondal98@gmail.com",
+    "mobileNumber":"9023052918",
+    "userName":"rohitprajapati"
+}
+
+
+Verification url: http://localhost:9910/user/verifyWithOTP?email=sonu112mondal98@gmail.com&OTP=079405
+(POST request)
